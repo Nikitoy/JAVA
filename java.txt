@@ -1,1 +1,50 @@
-Bienvenido a java
+JAVA:
+
+Es un lenguaje de programacion creado por Sun Microsystems Inc
+
+por un grupo liderado por James Gosling
+
+presentado en el año 1995
+
+Java es un lenguaje de programación de alto nivel orientado a objetos (POO).
+Los lenguajes de programación orientados a objetos son utilizados por los programadores para estructurar clases,
+que se utilizan para crear objetos (bits de datos y código).
+
+funciona perfectamente en red
+
+tiene gran funcionalidad gracias a sus librerias
+
+El manejo de memoria no es un problema, la gestiona el propio lenguaje
+
+incorpora Multi-Threading
+
+Es mucho codigo Spaghetti
+
+
+Que se puede programar con Java:
+Aplicaciones Independientes
+Applets
+se puede escribir aplicaciones para intrarredes
+Aplicaciones cliente/servidor
+Aplicaciones distribuidas en redes locales y en internet
+
+Que es un hilo:
+Un hilo es simplemente una tarea que puede ser ejecutada al mismo tiempo que otra tarea. 
+Los hilos de ejecución que comparten los mismos recursos, sumados a estos recursos, son en conjunto conocidos como un proceso.
+En Java un hilo es un objeto con capacidad de correr en forma concurrente el método run(). 
+En cierta manera es como tener dos "program counters" para un mismo código. 
+
+Hilo:
+es la forma de llevar mas de un proceso, independiente en tu programa de manera 
+que puedes hacer con tu programa mas de una tarea simultaneamente.
+
+osea podes hacer que tu programa ejecute mas de una tarea o proceso de manera simultanea
+
+¿Qué es Multithreading?:
+El subprocesamiento múltiple en Java es un proceso de ejecución de dos o más subprocesos simultáneamente
+para una utilización máxima de la CPU.
+
+Ventajas de multihilo:
+
+Los usuarios no están bloqueados porque los hilos son independientes, y podemos realizar varias operaciones a veces
+Como tal, los hilos son independientes, los otros hilos no se verán afectados si un hilo cumple una excepción.
