@@ -9,7 +9,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class crear extends AppCompatActivity {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState){
+        
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_crear);
 
         Button ingresar = (Button) findViewById(R.id.regresar);
         Button abduzcan = (Button) findViewById(R.id.ingresar);
