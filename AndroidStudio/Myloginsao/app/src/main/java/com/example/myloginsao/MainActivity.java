@@ -64,6 +64,30 @@ public class MainActivity extends AppCompatActivity {
                 Log.e("HttpClient", "success! response: " + response.toString());
                 Toast.makeText(getApplicationContext(), "Response :" + response.toString(), Toast.LENGHT_LONG).show();
             }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError) {
+                Log.e(TAG, "Error :" + error.toString());
+            }
+        })
+        {
+            @Override
+            protected Map<String, String> getParams(){
+                Map<String, String> params = new HashMap<String, String>();
+                params.put("id", "25");
+                return params;
+            }
+            @Override
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                Map<String, String> params = new HashMap<String, String();
+                params.put("Content-Type", "application/x-ww-form-urlencoded");
+                return params;
+            }
+        };
         
+        
+            mRequestQueue.add(mStringRequest);
+       }
+    }
                 
 }
